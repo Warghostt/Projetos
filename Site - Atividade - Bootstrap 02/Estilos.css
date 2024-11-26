@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+#carouselProjetos {
+
+    height: 10%;
+}
+
+#cor-texto h5 {
+    color: #333;
+
+
+}
+
+#carouselProjetos {
+    max-width: 650px;
+    /* Largura máxima do carrossel */
+    margin: 0 auto;
+    /* Centraliza o carrossel */
+}
+
+#carouselProjetos img {
+    width: 100%;
+    /* Ocupa toda a largura disponível */
+    height: auto;
+    /* Mantém a proporção original */
+    max-height: 400px;
+    /* Limita a altura máxima */
+    object-fit: contain;
+    /* Garante que a imagem inteira seja exibida */
+    background-color: #000;
+    /* Adiciona um fundo caso sobrem espaços */
+}
+
+.video-container video {
+    display: block;
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    /* Faz o vídeo preencher o espaço sem distorção */
+}

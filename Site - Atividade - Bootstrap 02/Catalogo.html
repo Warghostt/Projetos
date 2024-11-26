@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Jogos</title>
+    <link rel="stylesheet" href="Catalogo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Catálogo de Jogos</h1>
+        <div class="row" id="game-list">
+
+
+            <!-- Sessão de Cards 01 -->
+            <!-- Card 1 - Detroit: Become Human -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <div id="carouselDetroit" class="carousel slide card-img-top" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <iframe width="420" height="233"
+                                    src="https://www.youtube.com/embed/zTzrosH7WOU?si=Y5N0VyRqNoiSdQjm"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="IMG/Detroit-Become-Human.jpg" class="d-block w-100" alt="#">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselDetroit"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselDetroit"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Detroit: Become Human</h5>
+                        <p class="card-text">Aventura / Drama Interativo</p>
+                        <p class="card-text">R$ 71,50</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#gameModal1">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal para Jogo 1 -->
+            <div class="modal fade" id="gameModal1" tabindex="-1" aria-labelledby="gameModal1Label" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="gameModal1Label">Detroit: Become Human</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <iframe width="420" height="233"
+                                src="https://www.youtube.com/embed/QD1pbWCJcKQ?si=rOdckkTLTSForftk"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="modal-body">
+                            Desenvolvido pela Quantic Dream, este aclamado jogo narrativo coloca os jogadores em uma
+                            Detroit futurista de 2038, onde androides e humanos coexistem. Assuma o papel de três
+                            personagens com histórias entrelaçadas e faça escolhas que impactam profundamente a trama,
+                            culminando em múltiplos finais baseados nas suas decisões.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 1 - Detroit: Become Human -->
+
+            <!-- Card 2 - Elden Ring -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <div id="carouselElden_Ring" class="carousel slide card-img-top" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <iframe width="420" height="230.6"
+                                    src="https://www.youtube.com/embed/E3Huy2cdih0?si=HEaOKLMBkRTP-efT"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="IMG/Elden-Ring-capa.jpg" class="d-block w-100" alt="#">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselElden_Ring"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselElden_Ring"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Elden Ring</h5>
+                        <p class="card-text">ARPG, Ação</p>
+                        <p class="card-text">R$249,90 <strong>(em promoção por R$199,90)</strong></p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#gameModal2">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal para Jogo 2 -->
+            <div class="modal fade" id="gameModal2" tabindex="-1" aria-labelledby="gameModal1Label" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="gameModal1Label">Elden Ring</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <iframe width="420" height="230.6"
+                                src="https://www.youtube.com/embed/E3Huy2cdih0?si=HEaOKLMBkRTP-efT"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="modal-body">
+                            Desenvolvido pela FromSoftware e escrito por George R.R. Martin, explore um mundo sombrio
+                            repleto de desafios e mistérios.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 - Elden Ring -->
+
+            <!-- Card 3 - God of War Ragnarök -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <div id="carouselGod_of_War" class="carousel slide card-img-top" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <iframe width="420" height="230.6"
+                                    src="https://www.youtube.com/embed/EE-4GvjKcfs?si=7sHk8dv7K1vmnL7-"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="IMG/God-of-War-Ragnarök.webp" class="d-block w-100" alt="#">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselGod_of_War"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselGod_of_War"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">God of War Ragnarök</h5>
+                        <p class="card-text">Ação, Aventura</p>
+                        <p class="card-text">R$349,90</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#gameModal3">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal para Jogo 3 -->
+            <div class="modal fade" id="gameModal3" tabindex="-1" aria-labelledby="gameModal1Label" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="gameModal1Label">God of War Ragnarök</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <iframe width="420" height="230.6"
+                                src="https://www.youtube.com/embed/EE-4GvjKcfs?si=7sHk8dv7K1vmnL7-"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="modal-body">
+                            Kratos e Atreus enfrentam os desafios do Ragnarök em uma história emocionante e repleta de
+                            ação.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 - God of War Ragnarök -->
+            <!-- Sessão de Cards 01 -->
+
+            <!-- Sessão de Cards 02 -->
+            <!-- Card 4 - Silent Hill 2 Remake-->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <div id="carouselsilent_hill_2" class="carousel slide card-img-top" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <iframe width="420" height="230.6"
+                                    src="https://www.youtube.com/embed/ljxkYyPn6T0?si=8qVwkILGlf_HJqXg"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="IMG/SILENT-HILL-2.avif" class="d-block w-100" alt="#">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselsilent_hill_2"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselsilent_hill_2"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Silent Hill 2 Remake</h5>
+                        <p class="card-text">Medo, Temas Sensíveis, Violência Extrema.</p>
+                        <p class="card-text"> R$ 299,90</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#gameModal4">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal para Jogo 4 -->
+            <div class="modal fade" id="gameModal4" tabindex="-1" aria-labelledby="gameModal1Label" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="gameModal1Label">Silent Hill 2 Remake</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <iframe width="420" height="230.6"
+                                src="https://www.youtube.com/embed/ljxkYyPn6T0?si=8qVwkILGlf_HJqXg"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="modal-body">
+                            Reviva o clássico jogo de terror de 2001 em um remake totalmente reimaginado na Unreal
+                            Engine 5. Acompanhe James Sunderland enquanto ele explora a sombria cidade de Silent Hill em
+                            busca de respostas, enfrentando pesadelos e dilemas emocionais.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 4 - Silent Hill 2 Remake -->
+
+            <!-- Card 5 - The Legend of Zelda: Breath of the Wild -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <div id="carouselThe_Legend_of_Zelda" class="carousel slide card-img-top" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <iframe width="420" height="230.6"
+                                    src="https://www.youtube.com/embed/zw47_q9wbBE?si=FrDlZMnym1F0v4qJ"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="IMG/The-Legend-of-Zelda-Breath-of-the-Wild.avif" class="d-block w-100"
+                                    alt="#">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button"
+                            data-bs-target="#carouselThe_Legend_of_Zelda" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button"
+                            data-bs-target="#carouselThe_Legend_of_Zelda" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">The Legend of Zelda: Breath of the Wild</h5>
+                        <p class="card-text">Aventura, Mundo Aberto</p>
+                        <p class="card-text">R$299,90</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#gameModal5">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal para Jogo 5 -->
+            <div class="modal fade" id="gameModal5" tabindex="-1" aria-labelledby="gameModal1Label" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="gameModal1Label">The Legend of Zelda: Breath of the Wild</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <iframe width="420" height="230.6"
+                                src="https://www.youtube.com/embed/zw47_q9wbBE?si=FrDlZMnym1F0v4qJ"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="modal-body">
+                            Explore o vasto mundo de Hyrule, resolvendo quebra-cabeças, enfrentando inimigos e
+                            descobrindo segredos neste premiado jogo de aventura.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 5 - The Legend of Zelda: Breath of the Wild -->
+
+            <!-- Card 6 - Red Dead Redemption 2 -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <div id="carouselRed_Dead_Redemption_2" class="carousel slide card-img-top" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <iframe width="420" height="230.6"
+                                    src="https://www.youtube.com/embed/eaW0tYpxyp0?si=UEEcXaEEB9WOAVCP"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="IMG/Red-Dead-Redemption-2.jpg" class="d-block w-100" alt="#">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button"
+                            data-bs-target="#carouselRed_Dead_Redemption_2" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button"
+                            data-bs-target="#carouselRed_Dead_Redemption_2" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Red Dead Redemption 2</h5>
+                        <p class="card-text">Aventura, Faroeste</p>
+                        <p class="card-text">R$299,90</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#gameModal6">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal para Jogo 6 -->
+            <div class="modal fade" id="gameModal6" tabindex="-1" aria-labelledby="gameModal1Label" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="gameModal1Label">Red Dead Redemption 2</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <iframe width="420" height="230.6"
+                                src="https://www.youtube.com/embed/eaW0tYpxyp0?si=UEEcXaEEB9WOAVCP"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="modal-body">
+                            Viva a experiência do Velho Oeste com gráficos imersivos e uma narrativa emocionante.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 6 - Red Dead Redemption 2 -->
+            <!-- Sessão de Cards 02 -->
+
+            <!-- Sessão de Cards 03 -->
+            <!-- Card 7 - Cyberpunk 2077 -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <div id="carouselCyberpunk_2077" class="carousel slide card-img-top" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <iframe width="420" height="230.6"
+                                    src="https://www.youtube.com/embed/8X2kIfS6fb8?si=UhtIHyuzQq7jzhA5"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="IMG/Cyberpunk-2077.jpeg" class="d-block w-100" alt="#">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCyberpunk_2077"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselCyberpunk_2077"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Cyberpunk 2077</h5>
+                        <p class="card-text">RPG, Mundo Aberto.</p>
+                        <p class="card-text"> R$199,90 <strong>(em promoção por R$99,90)</strong></p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#gameModal7">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal para Jogo 7 -->
+            <div class="modal fade" id="gameModal7" tabindex="-1" aria-labelledby="gameModal1Label" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="gameModal1Label">Cyberpunk 2077</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <iframe width="420" height="230.6"
+                                src="https://www.youtube.com/embed/8X2kIfS6fb8?si=UhtIHyuzQq7jzhA5"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="modal-body">
+                            Mergulhe em Night City, uma metrópole futurista repleta de aventuras e escolhas.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 7 - Cyberpunk 2077 -->
+
+            <!-- Card 8 - Minecraft -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <div id="carouselMinecraft" class="carousel slide card-img-top" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <iframe width="420" height="230.6"
+                                    src="https://www.youtube.com/embed/MmB9b5njVbA?si=vvqX2FN3SevMJl0T"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="IMG/Minecraft.avif" class="d-block w-100" alt="#">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselMinecraft"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselMinecraft"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Minecraft</h5>
+                        <p class="card-text">Criativo, Sobrevivência</p>
+                        <p class="card-text">R$129,90</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#gameModal8">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal para Jogo 8 -->
+            <div class="modal fade" id="gameModal8" tabindex="-1" aria-labelledby="gameModal1Label" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="gameModal1Label">Minecraft</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <iframe width="420" height="230.6"
+                                src="https://www.youtube.com/embed/MmB9b5njVbA?si=vvqX2FN3SevMJl0T"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="modal-body">
+                            Crie, explore e sobreviva em um mundo gerado aleatoriamente, com infinitas possibilidades de
+                            personalização.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 8 - Minecraft -->
+
+            <!-- Card 9 - Call of Duty: Modern Warfare II -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <div id="carouselCall_of_Duty-MW-II" class="carousel slide card-img-top" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <iframe width="420" height="230.6"
+                                    src="https://www.youtube.com/embed/ztjfwecrY8E?si=5vcWcFw9K6XoTuYF"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="IMG/Call-of-Duty-MW-II.jpg" class="d-block w-100" alt="#">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCall_of_Duty-MW-II"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselCall_of_Duty-MW-II"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Call of Duty: Modern Warfare II</h5>
+                        <p class="card-text">Tiro, Ação</p>
+                        <p class="card-text">R$299,90</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#gameModal9">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal para Jogo 9 -->
+            <div class="modal fade" id="gameModal9" tabindex="-1" aria-labelledby="gameModal1Label" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="gameModal1Label">Call of Duty: Modern Warfare II</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <iframe width="420" height="230.6"
+                                src="https://www.youtube.com/embed/ztjfwecrY8E?si=5vcWcFw9K6XoTuYF"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="modal-body">
+                            Um dos melhores jogos de tiro com gráficos realistas e multiplayer imersivo.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 9 - Call of Duty: Modern Warfare II -->
+            <!-- Sessão de Cards 03 -->
+
+            <!-- Sessão de Cards 04 -->
+            <!-- Card 10 - Horizon Forbidden West -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <div id="carouselHorizon-Forbidden-West" class="carousel slide card-img-top"
+                        data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <iframe width="420" height="230.6"
+                                    src="https://www.youtube.com/embed/wQATS4HOxdo?si=2PotBeskS5XvWidk"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="IMG/Horizon-Forbidden-West.avif" class="d-block w-100" alt="#">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button"
+                            data-bs-target="#carouselHorizon-Forbidden-West" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button"
+                            data-bs-target="#carouselHorizon-Forbidden-West" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Horizon Forbidden West</h5>
+                        <p class="card-text">Aventura, RPG.</p>
+                        <p class="card-text"> R$349,90</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#gameModal10">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal para Jogo 10 -->
+            <div class="modal fade" id="gameModal10" tabindex="-1" aria-labelledby="gameModal1Label" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="gameModal1Label">Horizon Forbidden West</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <iframe width="420" height="230.6"
+                                src="https://www.youtube.com/embed/wQATS4HOxdo?si=2PotBeskS5XvWidk"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="modal-body">
+                            Explore um mundo repleto de máquinas em uma história épica no Oeste Proibido.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 10 - Horizon Forbidden West -->
+
+            <!-- Card 11 - Resident Evil 4 (Remake) -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <div id="carouselResident-Evil-4-Remake" class="carousel slide card-img-top"
+                        data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <iframe width="420" height="230.6"
+                                    src="https://www.youtube.com/embed/W1OUs3HwIuo?si=1M0yPJVxkqeLXX-l"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="IMG/Resident-Evil-4-Remake.avif" class="d-block w-100" alt="#">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button"
+                            data-bs-target="#carouselResident-Evil-4-Remake" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button"
+                            data-bs-target="#carouselResident-Evil-4-Remake" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Resident Evil 4 (Remake)</h5>
+                        <p class="card-text">Terror, Ação</p>
+                        <p class="card-text">R$249,90</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#gameModal11">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal para Jogo 11 -->
+            <div class="modal fade" id="gameModal11" tabindex="-1" aria-labelledby="gameModal1Label" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="gameModal1Label">Resident Evil 4 (Remake)</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <iframe width="420" height="230.6"
+                                src="https://www.youtube.com/embed/W1OUs3HwIuo?si=1M0yPJVxkqeLXX-l"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="modal-body">
+                            Um clássico do terror reimaginado com gráficos e mecânicas modernas.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 11 - Resident Evil 4 (Remake) -->
+
+            <!-- Card 12 - EA SPORTS FC™ 24 -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <div id="carouselFIFA-24" class="carousel slide card-img-top" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <iframe width="420" height="230.6"
+                                    src="https://www.youtube.com/embed/XhP3Xh4LMA8?si=oxLVVRe8vY41Z3xR"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="IMG/FIFA-24.jpeg" class="d-block w-100" alt="#">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselFIFA-24"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselFIFA-24"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">EA SPORTS FC™ 24</h5>
+                        <p class="card-text">Esportes</p>
+                        <p class="card-text">R$349,90</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#gameModal12">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal para Jogo 12 -->
+            <div class="modal fade" id="gameModal12" tabindex="-1" aria-labelledby="gameModal1Label" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="gameModal1Label">EA SPORTS FC™ 24</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <iframe width="420" height="230.6"
+                                src="https://www.youtube.com/embed/XhP3Xh4LMA8?si=oxLVVRe8vY41Z3xR"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="modal-body">
+                            O mais recente jogo de futebol da franquia FIFA, com melhorias gráficas e jogabilidade
+                            refinada.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 12 - FIFA 24 -->
+            <!-- Sessão de Cards 04 -->
+
+            <!-- Sessão de Cards 05 -->
+            <!-- Card 13 - Hollow Knight -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <div id="carouselHollow-Knight" class="carousel slide card-img-top" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <iframe width="420" height="230.6"
+                                    src="https://www.youtube.com/embed/UAO2urG23S4?si=fsiVxMSGZKeZuOao"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="IMG/Hollow-Knight.avif" class="d-block w-100" alt="#">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselHollow-Knight"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselHollow-Knight"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Hollow Knight</h5>
+                        <p class="card-text">Ação, Metroidvania.</p>
+                        <p class="card-text">R$45,90</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#gameModal13">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal para Jogo 13 -->
+            <div class="modal fade" id="gameModal13" tabindex="-1" aria-labelledby="gameModal1Label" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="gameModal1Label">Hollow Knight</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <iframe width="420" height="230.6"
+                                src="https://www.youtube.com/embed/UAO2urG23S4?si=fsiVxMSGZKeZuOao"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="modal-body">
+                            Uma aventura encantadora e desafiadora em um reino subterrâneo misterioso.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 13 - Hollow Knight -->
+
+            <!-- Card 14 - Grand Theft Auto V (GTA V) -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <div id="carouselGTA-V" class="carousel slide card-img-top" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <iframe width="420" height="230.6"
+                                    src="https://www.youtube.com/embed/QkkoHAzjnUs?si=Sa4rhGFeVn5BvMEW"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="IMG/GTA-V.webp" class="d-block w-100" alt="#">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselGTA-V"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselGTA-V"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Grand Theft Auto V (GTA V)</h5>
+                        <p class="card-text"> Ação, Mundo Aberto.</p>
+                        <p class="card-text">R$199,90 <strong>(em promoção por R$89,90)</strong></p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#gameModal14">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal para Jogo 14 -->
+            <div class="modal fade" id="gameModal14" tabindex="-1" aria-labelledby="gameModal1Label" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="gameModal1Label">Grand Theft Auto V (GTA V)</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <iframe width="420" height="230.6"
+                                src="https://www.youtube.com/embed/QkkoHAzjnUs?si=Sa4rhGFeVn5BvMEW"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="modal-body">
+                            Viva a vida no crime em Los Santos com este clássico de mundo aberto da Rockstar.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 14 - Grand Theft Auto V (GTA V) -->
+
+            <!-- Card 15 - Stardew Valley -->
+            <div class="col-md-4 col-sm-6 mb-4">
+                <div class="card">
+                    <div id="carouselStardew-Valley" class="carousel slide card-img-top" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item">
+                                <iframe width="420" height="230.6"
+                                    src="https://www.youtube.com/embed/ot7uXNQskhs?si=l4_T2C5EiikMcTTa"
+                                    title="YouTube video player" frameborder="0"
+                                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                            <div class="carousel-item active">
+                                <img src="IMG/Stardew-Valley.jpg" class="d-block w-100" alt="#">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselStardew-Valley"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselStardew-Valley"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Próximo</span>
+                        </button>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Stardew Valley</h5>
+                        <p class="card-text">Simulação, RPG</p>
+                        <p class="card-text">R$33,99</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#gameModal15">Ver Detalhes</button>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal para Jogo 15 -->
+            <div class="modal fade" id="gameModal15" tabindex="-1" aria-labelledby="gameModal1Label" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="gameModal1Label">Stardew Valley</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-center">
+                            <iframe width="420" height="230.6"
+                                src="https://www.youtube.com/embed/ot7uXNQskhs?si=l4_T2C5EiikMcTTa"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                        </div>
+                        <div class="modal-body">
+                            Crie sua fazenda, interaja com moradores e descubra segredos neste simulador relaxante.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Card 15 - Stardew Valley -->
+    <!-- Sessão de Cards 05 -->
+
+    <!-- seção footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
